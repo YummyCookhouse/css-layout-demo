@@ -1,0 +1,106 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+.wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #da1f19;
+}
+
+h2, p {
+  color: #FFF;
+  font-size: 32px;
+}
+p { font-size: 24px; }
+.box {
+  padding: 10px 0;
+  display: flex;
+  border: 1px solid #FFF;
+  min-height: 180px;
+}
+.item {
+  box-sizing: border-box;
+  text-align: center;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  color: #FFF;
+  font-size: 24px;
+  background-color: #f38a3f;
+  margin: 5px 10px;
+}
+
+
+.direction-row {
+  flex-direction: row;
+}
+.direction-row-reverse {
+  flex-direction: row-reverse;
+}
+.direction-column {
+  flex-direction: column;
+}
+.direction-column-reverse {
+  flex-direction: column-reverse;
+}
+
+
+.wrap-nowrap {
+  flex-wrap: nowrap;
+}
+.wrap-wrap {
+  flex-wrap: wrap;
+}
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.grow-cr-w {
+  flex-flow: column-reverse wrap;
+}
+
+
+
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+
+
+.align-stretch {
+  align-items: stretch;
+}
+.align-stretch .item {
+  height: auto;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+
+.box.align-c-between {
+  height: 300px;
+}
+.align-c-between {
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.order-2 {
+  order: -2;
+}
