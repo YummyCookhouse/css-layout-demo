@@ -23,6 +23,7 @@ p { font-size: 24px; }
 .item {
   box-sizing: border-box;
   text-align: center;
+  border-radius: 5px;
   height: 90px;
   width: 90px;
   line-height: 90px;
